@@ -12,10 +12,30 @@ Data yang digunakan mencakup persentase perubahan penggunaan layanan dari waktu 
 - **Grafik Persentase Perubahan**: Menampilkan perbandingan persentase perubahan dari waktu ke waktu antara hari kerja dan akhir pekan dalam bentuk grafik garis yang interaktif.
 - **Penggunaan Data Periode 6 Bulan**: Penampilan data dalam interval 6 bulan untuk memberikan pandangan terhadap pola perubahan penggunaan.
 
-## Tujuan
+## Pastikan sudah menginstal hal-hal berikut di sistem kamu:
 
-Tujuan dari dashboard ini adalah untuk membantu pengguna memahami bagaimana perilaku atau tren penggunaan layanan mereka berbeda antara hari kerja dan akhir pekan, serta bagaimana tren tersebut berubah seiring waktu. Hal ini dapat memberikan wawasan berharga dalam pengambilan keputusan terkait alokasi sumber daya atau strategi pemasaran yang lebih efektif.
+1. **Python 3.x** - Pastikan Python sudah terinstal di komputer kamu.
+2. **Streamlit** - Streamlit adalah framework untuk membangun aplikasi web berbasis data. Kamu bisa menginstalnya dengan perintah berikut:
+   ```bash
+   pip install streamlit
+   ```
+3. **Library Pendukung** - Pastikan semua library yang dibutuhkan untuk menjalankan notebook sudah diinstal:
+   ```bash
+   pip install pandas matplotlib
+   ```
 
----
+## Cara Menjalankan Dashboard
 
-Apakah deskripsi ini sesuai?
+Langkah-langkah berikut untuk menjalankan dashboard:
+
+1. Clone atau unduh repository proyek ini.
+   
+2. Navigasikan ke direktori proyek. Jika ada berkas bernama `dashboard.py` (atau sesuai nama berkas Python untuk dashboard kamu), jalankan command berikut di terminal atau command prompt:
+   
+   ```bash
+   streamlit run dashboard/dashboard.py
+   ```
+
+   Jika file Python dashboard ada di lokasi lain atau bernama berbeda, sesuaikan path-nya.
+
+3. Dashboard akan terbuka secara otomatis di browser web default.
