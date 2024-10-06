@@ -14,7 +14,17 @@ Data yang digunakan mencakup persentase perubahan penggunaan layanan dari waktu 
 
 ## Pastikan sudah menginstal hal-hal berikut di sistem kamu:
 
-1. **Python 3.x** - Pastikan Python sudah terinstal di komputer kamu.
+1. **Buat dan aktifkan virtual environment**:
+   - Untuk macOS/Linux:
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+   - Untuk Windows:
+     ```bash
+     python -m venv venv
+     venv\Scripts\activate
+     ```
 2. **Streamlit** - Streamlit adalah framework untuk membangun aplikasi web berbasis data. Kamu bisa menginstalnya dengan perintah berikut:
    ```bash
    pip install streamlit
