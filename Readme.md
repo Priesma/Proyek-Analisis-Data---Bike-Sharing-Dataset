@@ -25,11 +25,11 @@ Data yang digunakan mencakup persentase perubahan penggunaan layanan dari waktu 
      python -m venv venv
      venv\Scripts\activate
      ```
-2. **Streamlit** - Streamlit adalah framework untuk membangun aplikasi web berbasis data. Kamu bisa menginstalnya dengan perintah berikut:
+2. **Streamlit**:
    ```bash
    pip install streamlit
    ```
-3. **Library Pendukung** - Pastikan semua library yang dibutuhkan untuk menjalankan notebook sudah diinstal:
+3. **Library Pendukung**:
    ```bash
    pip install pandas matplotlib
    ```
