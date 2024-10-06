@@ -40,7 +40,7 @@ Langkah-langkah berikut untuk menjalankan dashboard:
 
 1. Clone atau unduh repository proyek ini.
    
-2. Navigasikan ke direktori proyek. Jika ada berkas bernama `dashboard.py` (atau sesuai nama berkas Python untuk dashboard kamu), jalankan command berikut di terminal atau command prompt:
+2. Navigasikan ke direktori proyek. Jika ada berkas bernama `dashboard.py`, jalankan command berikut di terminal atau command prompt:
    
    ```bash
    streamlit run dashboard/dashboard.py
