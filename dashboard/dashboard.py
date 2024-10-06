@@ -61,7 +61,7 @@ ax.legend(['Hari Kerja', 'Akhir Pekan'])
 st.pyplot(fig)
 
 # Visualisasi tren persentase perubahan penggunaan dari waktu ke waktu
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(25, 6))
 ax.plot(grouped.index.astype(str), grouped['percentage_change'], marker='o', color='red')
 ax.set_title('Persentase Perubahan: Hari Kerja vs Akhir Pekan (Periode 6 Bulan)')
 ax.set_xlabel('Periode 6 Bulan')
